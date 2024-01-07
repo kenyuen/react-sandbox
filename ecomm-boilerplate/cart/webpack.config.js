@@ -15,7 +15,7 @@ module.exports = {
             filename: 'remoteEntry.js',
             exposes: {
                 './CartShow': './src/index',
-            },            
+            },          
         }),
     ],
 };
