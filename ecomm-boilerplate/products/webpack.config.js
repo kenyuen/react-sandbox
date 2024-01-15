@@ -15,7 +15,8 @@ module.exports = {
             filename: 'remoteEntry.js',
             exposes: {
                 './ProductsIndex': './src/index',
-            } // Add closing curly brace here
+            },
+            shared: ['faker'],
         })
     ],
 };
