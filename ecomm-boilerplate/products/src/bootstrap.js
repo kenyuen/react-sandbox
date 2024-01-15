@@ -24,8 +24,8 @@ if (process.env.NODE_ENV === 'development') {
     if (el) {
         // We are probably running in isolation
         mount(el);
-    }
-}
+    };
+};
 
 // Context/Situation #2
 // We are running this file in development or production
